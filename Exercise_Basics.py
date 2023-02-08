@@ -12,8 +12,17 @@ age_diff=julia_age-age
 print(age_diff)
 
 #Exercise 4
-print("You are older than 21") if age > 21 else print("You are not older than 21")
-print('You are younger than Julia') if age < julia_age else print('You are older than Julia')
+if age > 21:
+  print("You are older than 21") 
+else:
+  print("You are not older than 21")
+
+
+if age < julia_age:
+  print('You are younger than Julia') 
+else:
+  print('You are older than Julia')
+
 
 #Exercise 5
 if age > julia_age:
