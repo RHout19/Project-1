@@ -14,7 +14,7 @@ print(age_diff)
 #Exercise 4
 if age > 21:
   print("You are older than 21") 
-else:Please 
+else: 
   print("You are not older than 21")
 
 
